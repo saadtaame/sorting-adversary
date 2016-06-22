@@ -1,2 +1,2 @@
 # sorting-adversary
-A small C program to better understand the lower bound on comparison-based sorting algorithms.
+A small C program to better understand the lower bound on comparison-based sorting algorithms. You play a game against the computer; the computer has a hidden list, `A`, of numbers and you want to sort this list of numbers. You can ask the adversary questions of the form `i j` and the adversary will answer `YES` if the element stored in position `i` is smaller than the element stored in position `j` and `NO` in the opposite case (indexing starts at `1`). You can safely assume that the numbers are pairwise distinct. The goal is to ask as few questions as possible.
